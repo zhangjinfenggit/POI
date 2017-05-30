@@ -35,13 +35,9 @@ public class Test {
 
 		font.setColor(Font.COLOR_RED);
 		style.setFont(font);
-
 		cell.setCellStyle(style);
-
 		FileOutputStream fileOutputStream = new FileOutputStream("C:/111.xls");
-
 		workbook.write(fileOutputStream);
-		workbook.write(fo);
 
 	}
 }
