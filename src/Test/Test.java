@@ -41,7 +41,7 @@ public class Test {
 		FileOutputStream fileOutputStream = new FileOutputStream("C:/111.xls");
 
 		workbook.write(fileOutputStream);
-		cell.setCellStyle(zhangsan);
-		//你是谁
+		workbook.write(fo);
+		
 	}
 }
